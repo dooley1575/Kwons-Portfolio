@@ -1,0 +1,646 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.wrap{
+    width: 100%;
+    height: 14000px;
+    background-image: url(img/all_background.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+}
+
+
+
+.nav{
+    width: 100%;
+    height: 100px;
+    background-image: url(img/nav_bg.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 3;
+}
+
+.menubar{
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.img-menu{
+    margin-top:30px;
+}
+
+.text{
+    width: 300px;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: auto;
+    display: flex;
+    font-family: "helvetica";
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.text-menu{
+    text-align: right;
+}
+
+
+.menubar > a:link, a:visited, a:active{
+    color:#fff;
+    transition: all 0.5s;
+}
+.menubar > a:hover{
+    color:lightgray;
+    transition: all 0.5s;
+}
+
+/** 메인콘텐츠 적용**/
+
+
+.sidebar{
+    position:fixed;
+    right: 500px;
+}
+
+.sidebarmenu{
+    width: 30px;
+    height: 150px;
+    position: fixed;
+    top: 618px;
+    right: 180px;
+}
+
+.instaicon{
+    margin-top: 20px;
+}
+.pintericon{
+    margin-top: 17px;
+}
+.behanicon{
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.sidebarline{
+    position:fixed;
+    top: 0;
+    right: 195px;
+    z-index: 2;
+}
+
+.maincon{
+    display: flex;
+    width: 1350px;
+    height: 830px;
+    border: 0px solid red;
+    margin: 75px auto;
+}
+
+.mainimg{
+    width:830px;
+    height:830px;
+    position: relative;
+    left: -97px;
+}
+
+.maintext{
+    font-family: Helvetica;
+    width: 750px;
+    height: 830px;
+    border: 0px solid blue;
+    position: relative;
+    right: 221px;
+}
+
+.maintit{
+    text-align: right;
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 130px;
+    position: relative;
+    top: -12px;
+    right: -11px;
+
+}
+
+.maintext .year {
+    text-align: right;
+    font-size: 10px;
+    font-style: oblique;
+    position: relative;
+    top: -164px;
+    right: 255px;
+}
+
+.maintext > .subtit {
+    text-align: right;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    top: -10px;
+    right: 0px;
+
+}
+
+.maintext > .projectname {
+    text-align: right;
+    font-style: oblique;
+    font-size: 10px;
+    position: relative;
+    top: 405px;
+    right: 0;
+}
+
+.maintext > .portfolio {
+    text-align: right;
+    font-size: 50px;
+    font-weight: 400;
+    position: relative;
+    top: 405px;
+    right: 0;
+}
+
+.maintext > .contact {
+    text-align: left;
+    font-size: 10px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0;
+    left: 245px;
+}
+
+.maintext > .designby {
+    text-align: right;
+    font: normal 10px Helvetica;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.minilogo {
+    width: 28.47px;
+    height: 9.81px;
+    position: absolute;
+    bottom: 12px;
+    right: 0;
+}
+
+/** 나 설명 **/
+
+.aboutme {
+    width: 1350px;
+    height: 1080px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.aboutmetext {
+    width:1100px;
+    
+}
+
+.komk {
+    font-size: 375px;
+    font-weight: 400;
+    font-family: "Spoqa Han Sans Neo";
+    position: relative;
+    top: 76px;
+    left: -15px;
+}
+
+.enmk {
+    font-size: 68px;
+    font-weight: 300;
+    font-family: "helvetica";
+    text-align: right;
+    letter-spacing: -1px;
+    position: relative;
+    top: 10px;
+    right: 120px;
+    letter-spacing: -1px;
+}
+
+.birth {
+    font-size: 40px;
+    font-family: "helvetica";
+    position: relative;
+    top: -15px;
+}
+
+.profile {
+    font-size: 12px;
+    font-weight: 300;
+    font-family: "helvetica";
+    position: relative;
+    top: -35px;
+    left: 280px;
+}
+
+.univer {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Spoqa Han Sans Neo";
+    position: relative;
+    top: -20px;
+}
+
+.here {
+    width: 300px;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: "helvetica";
+    position: relative;
+    top: 85px;
+    left: 400px;
+}
+
+.arrow {
+    position: relative;
+    left: 15px;
+}
+
+.email {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "helvetica";
+    text-align: right;
+    position: relative;
+    top: 40px;
+    right: 190px;
+}
+
+.PH {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "helvetica";
+    text-align: right;
+    position: relative;
+    top: 50px;
+    right: 110px;
+}
+
+.certificate {
+    font-size: 12px;
+    font-weight: 300;
+    font-family: "helvetica";
+    position: relative;
+    top: 240px;
+}
+
+.cerlist {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Spoqa Han Sans Neo";
+    display: flex;
+    justify-content: space-between;
+    padding-right: 110px;
+    position: relative;
+    top: 250px;
+}
+
+.skills {
+    width: 195px;
+    height: 682px;
+    margin-top: 250px;
+}
+
+.bgkmklogo {
+    position: absolute;
+    top: 1200px;
+    left: 90px;
+    z-index: -2;
+}
+
+.leftbar {
+    position: absolute;
+    top: 1595px;
+    left: 260px;
+}
+
+/** works 부분 **/
+
+.works {
+    width: 100%;
+    height: 11600px;
+}
+.visualdesign {
+}
+
+.book {
+    width: 1350px;
+    height: 1770px;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+
+.workstit {
+    font-size: 50px;
+    font-weight: 300;
+    font-family: "helvetica";
+    text-align: right;
+}
+
+.visualdesigntit {
+    font-size: 195px;
+    font-weight: 400;
+    line-height: 165px;
+    font-family: "helvetica";
+    text-align: right;
+    margin-top: 14px;
+    position: relative;
+    right: -5px;
+}
+
+.bookmockopcorner {
+    position: relative;
+    top: -190px;
+    left: 190px;
+}
+
+.bookmockup {
+    display: block;
+    float: right;
+    position: relative;
+    top: -170px;
+    z-index: -1;
+}
+
+.period{
+    font-size: 30px;
+    font-family: "helvetica";
+    position: relative;
+    top: 150px;
+}
+
+.book {
+    width: 1350px;
+    height: 1770px;
+}
+
+.editorialdesign {
+    width: 500px;
+    font-size: 15px;
+    font-family: "helvetica";
+    text-align: center;
+    position: relative;
+    top: 360px;
+    left: 110px;
+}
+
+.bookimg {
+    position: relative;
+    top: -330px;
+    left: -10px;
+}
+
+.conmaintext {
+    width: 600px;
+    position: relative;
+    top: -650px;
+    left: 500px;
+}
+
+.conmaintit {
+    font-weight: 500;
+    font-family: "Spoqa Han Sans Neo";
+    font-size: 35px;;
+}
+
+.consubtit {
+    font-size: 18px;
+    font-family: "Spoqa Han Sans Neo";
+    margin-top: 28px;
+}
+
+.conex {
+    font-family: "helvetica";
+    margin-top: 50px;
+}
+
+.bold {
+    font-family: "helvetica";
+    font-weight: 600;
+}
+
+.ggangtong {
+    position: relative;
+    top: -1200px;
+    left: 550px; 
+}
+
+.sajo {
+    width: 1350px;
+    height: 935px;
+    margin: 0 auto;
+}
+
+.sajoimg {
+    position: relative;
+    top: 0px;
+}
+
+.sajobg {
+    position: absolute;
+    top: 4222px;
+    left: -246px;
+    z-index: -1;
+}
+
+.identitydesign {
+    width: 300px;
+    font-size: 15px;
+    font-family: "helvetica";
+    position: relative;
+    top: -680px;
+    left: 1040px;
+
+}
+
+.sajotext {
+    position: relative;
+    top: -180px;
+}
+
+
+
+
+.jblbg {
+    width: 100%;
+    height: 2400px;
+    background-image: url(img/packagebg.png);
+    margin-top: 10px;
+    z-index: -1;
+}
+.jbl {
+    width: 1350px;
+    margin: 0 auto;
+    position: relative;
+    top: 320px;
+}
+
+.packagedesign {
+    margin-bottom: 10px;
+}
+
+.jblmockup {
+    position: relative;
+    z-index: 1;
+}
+
+.jbltext {
+    width: 430px;
+    height: 272px;
+    margin-left: auto;
+    position: relative;
+    top: -1165px;
+}
+
+.webdesign {
+
+}
+
+.webdesigntit {
+    width: 1800px;
+    height: 250px;
+    margin: 0 auto;
+    font-size: 250px;
+    font-weight: 400;
+    font-family: "Helvetica";
+    text-align: center;
+    
+}
+.jonathan {
+    width: 1350px;
+    height: 2300px;
+    margin: 0 auto;
+}
+
+.macbook {
+    position: relative;
+    top: -300px;
+}
+
+.jonathanimg {
+    margin-top: -200px;
+}
+
+.jonathantext {
+    width: 700px;
+    position: relative;
+    top: -1260px;
+    left: 700px;
+
+}
+
+.graphicdesign {
+    width:1350px;
+    margin: 0 auto;
+}
+
+.graphicdesigntit {
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: "Helvetica";
+    text-align: center;
+    font-weight: 400;
+}
+
+.gdimg {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photography {
+    width: 1350px;
+    margin: 0 auto;
+    margin-top: 250px;
+}
+
+.photographytit {
+    font-size: 195px;
+    font-weight: 400;
+    line-height: 165px;
+    font-family: "helvetica";
+    
+}
+
+.period2 {
+    font-size: 30px;
+    font-family: "helvetica";
+    position: relative;
+    top: 203px;
+}
+
+.photos {   
+    margin-top: -325px;
+    position: relative;
+    left: -25px;
+    z-index: -1;
+}
+
+.last {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.thanks {
+    margin-top: 205px;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Helvetica";
+}
+
+.by {
+    margin-top: 64px;
+    font-size :20px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Helvetica";
+}
+
+.meimg {
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+/** 푸터 **/
+.footer {
+    width: 100%;
+    height: 70px;
+    background-color: #707070;
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    z-index: 4;
+}
+
+.footertext {
+    width: 1400px;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Spoqa Han Sans Neo";
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin: 25px auto;
+}
+
+/** 모바일 **/
+.mobile {
+    width: 100%;
+    margin: 0 auto;
+}
