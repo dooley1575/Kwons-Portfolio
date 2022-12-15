@@ -56,11 +56,11 @@
 }
 
 
-.menubar > a:link, a:visited, a:active{
+a:link, a:visited, a:active{
     color:#fff;
     transition: all 0.5s;
 }
-.menubar > a:hover{
+a:hover{
     color:lightgray;
     transition: all 0.5s;
 }
@@ -323,9 +323,11 @@
 }
 
 .leftbar {
-    position: absolute;
-    top: 1595px;
-    left: 260px;
+    width: 1px;
+    height: 50px;
+    position: relative;
+    top: 550px;
+    left: -1325px;
 }
 
 /** works 부분 **/
@@ -616,6 +618,7 @@
     margin: 0 auto;
     margin-top: 70px;
 }
+
 
 /** 푸터 **/
 .footer {
